@@ -1,0 +1,28 @@
+{
+  "name": "tdd-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple TDD Boilerplate with BABEL and TAPE",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape -r babel-register test/**/*.test.js | faucet"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "babel-register": "^6.14.0",
+    "faucet": "0.0.1",
+    "tape": "^4.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlgusDark/TDDBoilerPlate.git"
+  },
+  "author": "AlgusDark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlgusDark/TDDBoilerPlate/issues"
+  },
+  "homepage": "https://github.com/AlgusDark/TDDBoilerPlate#readme"
+}
